@@ -4,13 +4,12 @@
 <head>
   <meta charset="UTF-8">
   
-    <title>咩咩~喵喵~</title>
+    <title>使用Hexo在github上建立个人博客 | 咩咩~喵喵~</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=3, minimum-scale=1">
     
     <meta name="author" content="Renjie Wu">
     
-    <meta name="description" content="title: 使用Hexo在github上建立个人博客date: 2015-11-19 11:48:45tags:-Hexo-github-blog
-引言：建立个人博客，在IT界是一件非常普遍且有意义的事情，毕竟好记性不如烂笔头。既能备忘，又能分享。如果是将博客在自己的站点上部署，就更棒了。首先，你">
+    <meta name="description" content="引言：建立个人博客，在IT界是一件非常普遍且有意义的事情，毕竟好记性不如烂笔头。既能备忘，又能分享。如果是将博客在自己的站点上部署，就更棒了。首先，你可能会接触到如何管理后台（虽然Hexo帮你处理了），其次，你可能会学习服务器知识（如果你从AWS之类购买主机的话需要自己部署，然而github帮你也处">
     
     
     
@@ -66,15 +65,15 @@
 		<header class="article-info clearfix">
   <h1 itemprop="name">
     
-      <a href="/2015/11/19/使用Hexo在github上建立个人博客/" title="" itemprop="url"></a>
+      <a href="/2015/11/19/使用Hexo在github上建立个人博客/" title="使用Hexo在github上建立个人博客" itemprop="url">使用Hexo在github上建立个人博客</a>
   </h1>
   <p class="article-author">By
     
       <a href="http://yoursite.com" title="Renjie Wu">Renjie Wu</a>
     </p>
   <p class="article-time">
-    <time datetime="2015-11-19T07:24:16.000Z" itemprop="datePublished">2015-11-19</time>
-    更新日期:<time datetime="2015-11-19T07:24:16.000Z" itemprop="dateModified">2015-11-19</time>
+    <time datetime="2015-11-19T03:48:45.000Z" itemprop="datePublished">2015-11-19</time>
+    更新日期:<time datetime="2015-11-19T07:36:11.000Z" itemprop="dateModified">2015-11-19</time>
     
   </p>
 </header>
@@ -83,14 +82,14 @@
 		
 		<div id="toc" class="toc-article">
 			<strong class="toc-title">文章目錄</strong>
-		<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#引言："><span class="toc-number">1.</span> <span class="toc-text">引言：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1、Hexo"><span class="toc-number">2.</span> <span class="toc-text">1、Hexo</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-1_安装Hexo"><span class="toc-number">2.1.</span> <span class="toc-text">1.1 安装Hexo</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2、github"><span class="toc-number">3.</span> <span class="toc-text">2、github</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#官方说明"><span class="toc-number">3.1.</span> <span class="toc-text">官方说明</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#生成新的SSH_keys"><span class="toc-number">3.2.</span> <span class="toc-text">生成新的SSH keys</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#添加SSH_keys到github"><span class="toc-number">3.3.</span> <span class="toc-text">添加SSH keys到github</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#测试是否成功"><span class="toc-number">3.4.</span> <span class="toc-text">测试是否成功</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Hexo设置git选项"><span class="toc-number">3.5.</span> <span class="toc-text">Hexo设置git选项</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#安装deploy包"><span class="toc-number">3.6.</span> <span class="toc-text">安装deploy包</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#上传Hexo内容到github"><span class="toc-number">3.7.</span> <span class="toc-text">上传Hexo内容到github</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#更换域名"><span class="toc-number">4.</span> <span class="toc-text">更换域名</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#买域名"><span class="toc-number">4.1.</span> <span class="toc-text">买域名</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#DNS解析"><span class="toc-number">4.2.</span> <span class="toc-text">DNS解析</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#结束语："><span class="toc-number">4.3.</span> <span class="toc-text">结束语：</span></a></li></ol></li></ol>
+		<ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#引言："><span class="toc-number">1.</span> <span class="toc-text">引言：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1、Hexo"><span class="toc-number">2.</span> <span class="toc-text">1、Hexo</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-1_安装Hexo"><span class="toc-number">2.1.</span> <span class="toc-text">1.1 安装Hexo</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2、github"><span class="toc-number">3.</span> <span class="toc-text">2、github</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#官方说明"><span class="toc-number">3.1.</span> <span class="toc-text">官方说明</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#建立项目"><span class="toc-number">3.2.</span> <span class="toc-text">建立项目</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#生成新的SSH_keys"><span class="toc-number">3.3.</span> <span class="toc-text">生成新的SSH keys</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#添加SSH_keys到github"><span class="toc-number">3.4.</span> <span class="toc-text">添加SSH keys到github</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#测试是否成功"><span class="toc-number">3.5.</span> <span class="toc-text">测试是否成功</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Hexo设置git选项"><span class="toc-number">3.6.</span> <span class="toc-text">Hexo设置git选项</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#安装deploy包"><span class="toc-number">3.7.</span> <span class="toc-text">安装deploy包</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#上传Hexo内容到github"><span class="toc-number">3.8.</span> <span class="toc-text">上传Hexo内容到github</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#更换域名"><span class="toc-number">4.</span> <span class="toc-text">更换域名</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#买域名"><span class="toc-number">4.1.</span> <span class="toc-text">买域名</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#DNS解析"><span class="toc-number">4.2.</span> <span class="toc-text">DNS解析</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#结束语："><span class="toc-number">4.3.</span> <span class="toc-text">结束语：</span></a></li></ol></li></ol>
 		</div>
 		
-		<p>title: 使用Hexo在github上建立个人博客<br>date: 2015-11-19 11:48:45<br>tags:<br>-Hexo<br>-github<br>-blog</p>
-<h2 id="引言：">引言：</h2><p>建立个人博客，在IT界是一件非常普遍且有意义的事情，毕竟好记性不如烂笔头。既能备忘，又能分享。<br>如果是将博客在自己的站点上部署，就更棒了。首先，你可能会接触到如何管理后台（虽然Hexo帮你处理了），<br>其次，你可能会学习服务器知识（如果你从AWS之类购买主机的话需要自己部署，然而github帮你也处理了），<br>最后，自己选择域名、样式、控制整个站点，不是一个全站工程师的梦想么？<br>这个博客也是基于Hexo和github建立的。</p>
+		<h2 id="引言：">引言：</h2><p>建立个人博客，在IT界是一件非常普遍且有意义的事情，毕竟好记性不如烂笔头。既能备忘，又能分享。<br>如果是将博客在自己的站点上部署，就更棒了。首先，你可能会接触到如何管理后台（虽然Hexo帮你处理了），<br>其次，你可能会学习服务器知识（如果你从AWS之类购买主机的话需要自己部署，然而github帮你也处理了），<br>最后，自己选择域名、样式、控制整个站点，不是一个全站工程师的梦想么？<br>这个博客也是基于Hexo和github建立的。</p>
 <h2 id="1、Hexo">1、Hexo</h2><p>Hexo是一个用node.js开发的一个博客框架。博客内容的存储全是通过Markdown的标记形式存储的.md文件。<br>开发过程十分迅速，可用模板丰富。</p>
 <h3 id="1-1_安装Hexo">1.1 安装Hexo</h3><p>首先命令行用npm全局安装hexo</p>
-<p><code>$ npm install hexo-cli -g</code><br>(若提示没有npm命令，请自行安装node)</p>
+<p><code>$ npm install hexo-cli -g</code></p>
+<p>(若提示没有npm命令，请自行安装node)</p>
 <p>这时候我们已经可以使用Hexo命令了。以为hexo已经被全局安装。</p>
 <p>在想要建工程文件夹的目录里初始化hexo项目</p>
 <p><code>$ hexo init &lt;文件夹名称&gt;</code></p>
@@ -100,29 +99,35 @@
 <p><code>$ npm install</code></p>
 <p>安装之后会在此目录下生成 node_modules文件夹，里面包含hexo各种依赖包</p>
 <p>之后生成/更新（每次更改代码，都要进行下面两边操作重新生成网页，重启服务器）</p>
-<p><code>$ hexo generate</code>(可以缩写 hexo g)</p>
+<p><code>$ hexo generate</code> (可以缩写 hexo g)</p>
 <p>启动服务器，系统会在默认4000端口开启，可以在_config.yml调整。访问localhost:4000即可</p>
 <p><code>$ hexo server</code></p>
 <h2 id="2、github">2、github</h2><p>github 是一个世界上最大的男性同胞交♂流平台（大雾）。由于github非常良心的可以免费托管开源项目，又非常良心地为那些项目设置了介绍页（Page）</p>
 <p>所以，许多开源项目的说明文档就放在了github上面。比方说hexo.io , xxx.io 这样的网站。</p>
 <p>因此，我们也可以把我们的技术博客放在github上面，作为技术的分享。</p>
 <h3 id="官方说明">官方说明</h3><p><a href="https://pages.github.com/" target="_blank" rel="external">https://pages.github.com/</a></p>
-<p>###首先建立项目</p>
-<p>关于建立项目的名称。[username].github.io应该是项目名称，代表着个人主页。所以推荐用此名来命名。<br>如果觉得这个域名太土，不高大上的话，后文有写买域名的方法。’[username]’代表着你的github的用户名称。</p>
+<h3 id="建立项目">建立项目</h3><p>关于建立项目的名称。[username].github.io应该是项目名称，代表着个人主页。所以推荐用此名来命名。<br>如果觉得这个域名太土，不高大上的话，后文有写买域名的方法。’[username]’代表着你的github的用户名称。</p>
 <p>上传可以选择https上传和SSH上传。若选择SSH上传需要配置好SSH keys。</p>
 <p>SSH keys为本机和服务器(github)建立了桥梁。</p>
-<h3 id="生成新的SSH_keys">生成新的SSH keys</h3><p><code>$ cd ~/.ssh</code>检查本机的ssh密钥</p>
-<p><code>$ ssh-keygen -t rsa -C &quot;&lt;email&gt;@youremail.com&quot;</code> 生成keys，会让你输入两次密码。这个设置是防止别人往你的项目里提交内容。</p>
+<h3 id="生成新的SSH_keys">生成新的SSH keys</h3><p>检查本机的ssh密钥</p>
+<p><code>$ cd ~/.ssh</code></p>
+<p>生成keys，会让你输入两次密码。这个设置是防止别人往你的项目里提交内容。</p>
+<p><code>$ ssh-keygen -t rsa -C &quot;&lt;email&gt;@youremail.com&quot;</code></p>
 <p>最后看到”The keys randomart image is:”表示设置成功。</p>
 <h3 id="添加SSH_keys到github">添加SSH keys到github</h3><p>打开前面.ssh目录下的id_rsa.pub文件，复制所有内容，然后在github个人设置-&gt;SSH-&gt;add a public key，粘贴刚才的内容到Key文本框里，点击OK。</p>
-<h3 id="测试是否成功">测试是否成功</h3><p><code>$ ssh -T git@github.com</code> 看到<code>Hi [username]! You&#39;ve successfully authenticated, but GitHub does not provide shell access.</code>表示设置成功。</p>
+<h3 id="测试是否成功">测试是否成功</h3><p><code>$ ssh -T git@github.com</code></p>
+<p><code>Hi [username]! You&#39;ve successfully authenticated, but GitHub does not provide shell access.</code></p>
+<p>看到这个表示设置成功。</p>
 <h3 id="Hexo设置git选项">Hexo设置git选项</h3><p>如果不换域名的话。回到Hexo,在_.config.yml最后的deploy</p>
-<p><code>deploy:
-    type: git
-    repository: git@github.com:[username]/[username].github.io.git
-    branch: [branch]
-    message: [message]</code></p>
-<h3 id="安装deploy包">安装deploy包</h3><p><code>$ npminstall hexo-deployer-git --save</code></p>
+<p>` deploy:</p>
+<pre><code><span class="attribute">type</span>: <span class="string">git</span>
+
+<span class="less"><span class="attribute">repository</span>: git<span class="variable">@github</span>.<span class="attribute">com</span>:[username]/[username].github.io.git
+
+<span class="attribute">branch</span>: [branch]
+
+<span class="attribute">message</span>: [message] `</span>
+</code></pre><h3 id="安装deploy包">安装deploy包</h3><p><code>$ npminstall hexo-deployer-git --save</code></p>
 <h3 id="上传Hexo内容到github">上传Hexo内容到github</h3><p>cd到Hexo项目目录，然后输入下面命令即可。</p>
 <p><code>$ hexo deploy</code></p>
 <p>至此，你已经可以通过[username].github.io来看到Hexo的页面了。</p>
@@ -132,7 +137,10 @@
 <h3 id="DNS解析">DNS解析</h3><p>我们需要把你买的域名解析到你github个人主页的ip上去。</p>
 <p>先ping一下ip</p>
 <p><code>$ ping [username].github.io</code></p>
-<p>然后在DNSpod的域名管理。将要解析的域名的两天记录类型为A的条目的记录值该为github个人主页的IP。<br>然后回到godaddy，更改 godaddy 的 Nameservers 为 DNSpod 的 NameServers:F1G1NS1.DNSPOD.NET、F1G1NS2.DNSPOD.NET。<br>（似乎godaddy也可以完成解析的工作，如果这样就可以不用更改NameServers了。可能这样做有其他的好处。）</p>
+<p>然后在DNSpod的域名管理。将要解析的域名的两天记录类型为A的条目的记录值该为github个人主页的IP。<br>然后回到godaddy，更改 godaddy 的 Nameservers 为 DNSpod 的 NameServers:</p>
+<p>F1G1NS1.DNSPOD.NET</p>
+<p>F1G1NS2.DNSPOD.NET。</p>
+<p>（似乎godaddy也可以完成解析的工作，如果这样就可以不用更改NameServers了。可能这样做有其他的好处。）</p>
 <p>更改完之后，域名已经访问到了github，虽然并不是我们的主页，还差最后一步。</p>
 <p>在博客项目中，新建一个文件名为CNAME。位置在项目旁边的 “+”。然后内容是我们绑定的域名，确定。</p>
 <p>再次输入更换的域名，已经能正确显示。输入[username].github.io时，发现跳转到了更换后的域名。</p>
@@ -142,12 +150,17 @@
 	</div>
 		<footer class="article-footer clearfix">
 
+  <div class="article-tags">
+  
+  <span></span> <a href="/tags/Hexo/">Hexo</a><a href="/tags/blog/">blog</a><a href="/tags/github/">github</a>
+  </div>
+
 
 
 
 <div class="article-share" id="share">
 
-  <div data-url="http://yoursite.com/2015/11/19/使用Hexo在github上建立个人博客/" data-title="咩咩~喵喵~" data-tsina="null" class="share clearfix">
+  <div data-url="http://yoursite.com/2015/11/19/使用Hexo在github上建立个人博客/" data-title="使用Hexo在github上建立个人博客 | 咩咩~喵喵~" data-tsina="null" class="share clearfix">
   </div>
 
 </div>
@@ -173,7 +186,7 @@
 
   <div id="toc" class="toc-aside">
   <strong class="toc-title">文章目錄</strong>
-  <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#引言："><span class="toc-number">1.</span> <span class="toc-text">引言：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1、Hexo"><span class="toc-number">2.</span> <span class="toc-text">1、Hexo</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-1_安装Hexo"><span class="toc-number">2.1.</span> <span class="toc-text">1.1 安装Hexo</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2、github"><span class="toc-number">3.</span> <span class="toc-text">2、github</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#官方说明"><span class="toc-number">3.1.</span> <span class="toc-text">官方说明</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#生成新的SSH_keys"><span class="toc-number">3.2.</span> <span class="toc-text">生成新的SSH keys</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#添加SSH_keys到github"><span class="toc-number">3.3.</span> <span class="toc-text">添加SSH keys到github</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#测试是否成功"><span class="toc-number">3.4.</span> <span class="toc-text">测试是否成功</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Hexo设置git选项"><span class="toc-number">3.5.</span> <span class="toc-text">Hexo设置git选项</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#安装deploy包"><span class="toc-number">3.6.</span> <span class="toc-text">安装deploy包</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#上传Hexo内容到github"><span class="toc-number">3.7.</span> <span class="toc-text">上传Hexo内容到github</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#更换域名"><span class="toc-number">4.</span> <span class="toc-text">更换域名</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#买域名"><span class="toc-number">4.1.</span> <span class="toc-text">买域名</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#DNS解析"><span class="toc-number">4.2.</span> <span class="toc-text">DNS解析</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#结束语："><span class="toc-number">4.3.</span> <span class="toc-text">结束语：</span></a></li></ol></li></ol>
+  <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#引言："><span class="toc-number">1.</span> <span class="toc-text">引言：</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#1、Hexo"><span class="toc-number">2.</span> <span class="toc-text">1、Hexo</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-1_安装Hexo"><span class="toc-number">2.1.</span> <span class="toc-text">1.1 安装Hexo</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2、github"><span class="toc-number">3.</span> <span class="toc-text">2、github</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#官方说明"><span class="toc-number">3.1.</span> <span class="toc-text">官方说明</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#建立项目"><span class="toc-number">3.2.</span> <span class="toc-text">建立项目</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#生成新的SSH_keys"><span class="toc-number">3.3.</span> <span class="toc-text">生成新的SSH keys</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#添加SSH_keys到github"><span class="toc-number">3.4.</span> <span class="toc-text">添加SSH keys到github</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#测试是否成功"><span class="toc-number">3.5.</span> <span class="toc-text">测试是否成功</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Hexo设置git选项"><span class="toc-number">3.6.</span> <span class="toc-text">Hexo设置git选项</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#安装deploy包"><span class="toc-number">3.7.</span> <span class="toc-text">安装deploy包</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#上传Hexo内容到github"><span class="toc-number">3.8.</span> <span class="toc-text">上传Hexo内容到github</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#更换域名"><span class="toc-number">4.</span> <span class="toc-text">更换域名</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#买域名"><span class="toc-number">4.1.</span> <span class="toc-text">买域名</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#DNS解析"><span class="toc-number">4.2.</span> <span class="toc-text">DNS解析</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#结束语："><span class="toc-number">4.3.</span> <span class="toc-text">结束语：</span></a></li></ol></li></ol>
   </div>
 
 <div id="asidepart">
@@ -187,7 +200,13 @@
 	<p class="asidetitle">標簽</p>
 		<ul class="clearfix">
 		
+			<li><a href="/tags/Hexo/" title="Hexo">Hexo<sup>1</sup></a></li>
+		
 			<li><a href="/tags/Markdown/" title="Markdown">Markdown<sup>1</sup></a></li>
+		
+			<li><a href="/tags/blog/" title="blog">blog<sup>1</sup></a></li>
+		
+			<li><a href="/tags/github/" title="github">github<sup>1</sup></a></li>
 		
 			<li><a href="/tags/瞎扯/" title="瞎扯">瞎扯<sup>1</sup></a></li>
 		
